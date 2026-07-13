@@ -140,32 +140,6 @@ F1-score merupakan rata-rata harmonis antara precision dan recall.
 
 Confusion matrix digunakan untuk melihat jumlah prediksi benar dan salah pada masing-masing kelas.
 
-## Struktur Proyek
-
-```text
-network-intrusion-detection/
-│
-├── notebooks/
-│   └── pipeline_final.ipynb
-│
-├── models/
-│   ├── model_random_forest.pkl
-│   └── scaler.pkl
-│
-├── datasets/
-│   ├── UNSW-NB15/
-│   ├── NSL-KDD/
-│   └── CICIDS2019/
-│
-├── images/
-│   ├── confusion_matrix/
-│   └── model_comparison/
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## Teknologi yang Digunakan
 
 Proyek ini dikembangkan menggunakan:
