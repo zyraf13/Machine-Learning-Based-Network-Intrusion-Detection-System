@@ -55,17 +55,6 @@ https://www.kaggle.com/datasets/tarundhamor/cicids-2019-dataset?select=syn_data.
 
 ---
 
-### Struktur Folder Dataset
-
-Setelah mengunduh dataset, simpan dengan struktur berikut:
-
-datasets/
-├── UNSW-NB15/
-├── NSL-KDD/
-└── CICIDS2019/
-
-> Dataset tidak disertakan dalam repository ini karena ukuran file yang besar dan mengikuti ketentuan distribusi dari penyedia dataset.
-
 ## Tahapan Penelitian
 
 ### 1. Eksplorasi Data
