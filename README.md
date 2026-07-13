@@ -23,19 +23,48 @@ Tujuan utama proyek ini adalah:
 5. Menganalisis pengaruh rasio pembagian data terhadap kinerja model.
 6. Menyimpan model terbaik agar dapat digunakan pada aplikasi web atau sistem inferensi.
 
+
 ## Dataset
+
+Penelitian ini menggunakan tiga dataset publik yang banyak digunakan dalam penelitian Network Intrusion Detection System (NIDS).
 
 ### 1. UNSW-NB15
 
-UNSW-NB15 merupakan dataset keamanan jaringan yang berisi lalu lintas normal dan berbagai jenis serangan. Dataset ini memiliki fitur numerik dan kategorikal yang menggambarkan aktivitas jaringan.
+UNSW-NB15 merupakan dataset yang dikembangkan oleh University of New South Wales (UNSW) dan berisi lalu lintas jaringan normal serta sembilan kategori serangan modern.
+
+**Sumber Resmi:**
+https://www.kaggle.com/code/getanmolgupta01/unsw-nb15-cybersecurity-threat-detection-ann/input
+
+---
 
 ### 2. NSL-KDD
 
-NSL-KDD merupakan versi pengembangan dari dataset KDD Cup 1999. Dataset ini dibuat untuk mengurangi masalah duplikasi dan ketidakseimbangan data yang terdapat pada dataset sebelumnya.
+NSL-KDD merupakan pengembangan dari dataset KDD Cup 1999 yang dirancang untuk mengurangi data duplikat dan meningkatkan kualitas evaluasi model.
+
+**Sumber Resmi:**
+https://www.kaggle.com/datasets/kiranmahesh/nslkdd
+
+---
 
 ### 3. CICIDS 2019
 
-CICIDS 2019 merupakan dataset modern yang mencakup berbagai pola serangan siber dengan karakteristik lalu lintas jaringan yang lebih realistis.
+CICIDS 2019 merupakan dataset keamanan jaringan modern yang dikembangkan oleh Canadian Institute for Cybersecurity (CIC) dan mencakup berbagai skenario serangan yang realistis.
+
+**Sumber Resmi:**
+https://www.kaggle.com/datasets/tarundhamor/cicids-2019-dataset?select=syn_data.csv
+
+---
+
+### Struktur Folder Dataset
+
+Setelah mengunduh dataset, simpan dengan struktur berikut:
+
+datasets/
+├── UNSW-NB15/
+├── NSL-KDD/
+└── CICIDS2019/
+
+> Dataset tidak disertakan dalam repository ini karena ukuran file yang besar dan mengikuti ketentuan distribusi dari penyedia dataset.
 
 ## Tahapan Penelitian
 
